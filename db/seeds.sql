@@ -1,0 +1,58 @@
+INSERT INTO departments(id, dept_name) 
+VALUES ('001' , 'womens apparel'),
+       ('002', 'mens apparel'),
+       ('003','womens shoes'),
+       ('004','mens shoes'),
+       ('005','womens accecories'),
+       ('006','mens accesories'),
+       ('007','houseware');
+
+INSERT into roles(job_title, role_id, dept_name, salary)
+VALUES ('manager', '1', 'womens apparel', '100000'),
+       ('manager', '2', 'mens apparel', '100000'),
+       ('manager', '3', 'womens shoes', '100000'),
+       ('manager', '4', 'mens shoes', '100000'),
+       ('manager', '5', 'womens accesories', '100000'),
+       ('manager', '6', 'mens accesories', '100000'),
+       ('manager', '7', 'houseware', '100000'),
+       ('employee', '1', 'womens apparel', '50000'),
+       ('employee', '2', 'mens apparel', '50000'),
+       ('employee', '3', 'womens shoes', '50000'),
+       ('employee', '4', 'mens shoes', '50000'),
+       ('employee', '5', 'womens accesories', '50000'),
+       ('employee', '6', 'mens accesories', '50000'),
+       ('employee', '7', 'houseware', '50000'),
+       ('employee', '8', 'womens apparel', '50000'),
+       ('employee', '9', 'mens apparel', '50000'),
+       ('employee', '10', 'womens shoes', '50000'),
+       ('employee', '11', 'mens shoes', '50000'),
+       ('employee', '12', 'womens accesories', '50000'),
+       ('employee', '13', 'mens accesories', '50000'),
+       ('employee', '14', 'houseware', '50000'),
+       ('employee', '15', 'womens apparel', '50000'),
+       ('employee', '16', 'mens apparel', '50000'),
+       ('employee', '17', 'womens shoes', '50000'),
+       ('employee', '18', 'mens shoes', '50000'),
+       ('employee', '19', 'womens accesories', '50000'),
+       ('employee', '20', 'mens accesories', '50000');
+
+INSERT INTO employees(id, first_name, last_name, job_title, dept_name, salaries, managers)
+VALUES ('1', 'jane', 'smith', 'manager', 'womens apparel', '100000', '1'),
+       ('2', 'bob', 'dillan', 'manager', 'mens apparel', '100000', '2'),
+       ('3', 'mary', 'hart', 'manager', 'womens shoes', '100000', '3'),
+       ('4', 'eli', 'apple', 'manager', 'mens shoes', '100000', '4'),
+       ('5', 'helen', 'doe', 'manager', 'womens accesories', '100000', '5'),
+       ('6', 'roger', 'brown', 'manager', 'mens accesories', '100000', '6'),
+       ('7', 'samantha', 'wright', 'manager', 'houseware', '100000', '7'),
+       ('8', 'will', 'hill', 'employee', 'womens apparel', '50000', '1'),
+       ('9', 'mindy', 'arnold', 'employee', 'mens apparel', '50000', '2'),
+       ('10', 'danny', 'geanes', 'employee', 'womens shoes', '50000', '3'),
+       ('11', 'john', 'doe', 'employee', 'mens shoes', '50000', '4'),
+       ('12', 'jane', 'doe', 'employee', 'womens accesories', '50000', '5'),
+       ('13', 'chris', 'johnson', 'employee', 'mens accesories', '50000', '6'),
+       ('14', 'bella', 'doe', 'employee', 'houseware', '50000', '7'),
+       ('15', 'jane', 'doe', 'employee', 'womens apparel', '50000', '1'),
+       ('16', 'john', 'doe', 'employee', 'mens apparel', '50000', '2'),
+       ('17', 'jane', 'doe', 'employee', 'womens shoes', '50000', '3');
+
+    
